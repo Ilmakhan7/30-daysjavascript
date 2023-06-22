@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title> Day-3 JavaScript Quiz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-box">
+        <h1 id="quiz-header">
+          <i class="fas fa-clipboard-list"></i> JavaScript Quiz App
+        </h1>
+        <div class="question-count-timmer">
+          <p>
+            Question <span id="question-number">1</span> of
+            <span id="total-questions">10</span>
+          </p>
+          <p id="timmer">
+            <i class="fas fa-clock"></i> <span id="minutes">00</span> :
+            <span id="seconds">00</span>
+          </p>
+        </div>
+        <div id="reset-quiz"></div>
+        <p id="question"></p>
+        <div class="options"></div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
